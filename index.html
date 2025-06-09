@@ -83,17 +83,36 @@
     footer a:hover {
       text-decoration: underline;
     }
+    .language-selector {
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      z-index: 1000;
+    }
+    .language-selector select {
+      padding: 5px;
+      border-radius: 4px;
+      border: 1px solid #E46F34;
+      background-color: white;
+      color: #000000;
+    }
   </style>
 </head>
 <body>
+  <div class="language-selector">
+    <select id="languageSelect" onchange="changeLanguage(this.value)">
+      <option value="pt">Português</option>
+      <option value="en">English</option>
+    </select>
+  </div>
   <header>
     <h1>HG Consulting & Engineering</h1>
     <nav>
-      <a href="index.html">Início</a>
-      <a href="sobre.html">Sobre Nós</a>
-      <a href="servicos.html">Serviços</a>
-      <a href="projetos.html">Projetos</a>
-      <a href="contacto.html">Contacto</a>
+      <a href="#inicio" data-translate="inicio">Início</a>
+      <a href="#sobre" data-translate="sobre">Sobre Nós</a>
+      <a href="#servicos" data-translate="servicos">Serviços</a>
+      <a href="#projetos" data-translate="projetos">Projetos</a>
+      <a href="#contacto" data-translate="contacto">Contacto</a>
     </nav>
   </header>
 
@@ -137,10 +156,16 @@
 
   <main class="container">
     <section id="inicio" class="text-center py-5">
-      <h2>Bem-vindo à HG Consulting & Engineering</h2>
-      <p class="lead">Oferecemos serviços de engenharia, consultoria e formação com foco em qualidade e sustentabilidade.</p>
+      <h2 data-translate="bemVindo">Bem-vindo à HG Consulting & Engineering</h2>
+      <p data-translate="descricaoServicos">Oferecemos serviços de engenharia, consultoria e formação com foco em qualidade e sustentabilidade.</p>
     </section>
 
+    <section id="sobre">
+      <h2 data-translate="sobre">Sobre Nós</h2>
+      <p><strong data-translate="missao">Missão:</strong> <span data-translate="missaoTexto">Prestar serviços de engenharia, consultoria, inspeção e formação profissional com foco na eficiência, segurança e proteção ambiental.</span></p>
+      <p><strong data-translate="visao">Visão:</strong> <span data-translate="visaoTexto">Ser uma empresa de referência nacional e internacional na área da engenharia e consultoria.</span></p>
+      <p><strong data-translate="valores">Valores:</strong> <span data-translate="valoresTexto">Comprometimento, qualidade, responsabilidade ambiental, inovação, formação contínua.</span></p>
+    </section>
     <section id="servicos">
       <h2 class="text-center mb-4">Nossos Serviços</h2>
       <div class="row">
@@ -170,8 +195,17 @@
   </main>
 
   <footer>
-    <p>&copy; 2025 HG Consulting & Engineering, Lda. Todos os direitos reservados.</p>
-    <p>Contacte-nos: geral@hgconsulting.co.mz</p>
+    <nav>
+      <a href="index.html" data-translate="inicio">Início</a>
+      <a href="sobre.html" data-translate="sobre">Sobre Nós</a>
+      <a href="servicos.html" data-translate="servicos">Serviços</a>
+      <a href="projetos.html" data-translate="projetos">Projetos</a>
+      <a href="contacto.html" data-translate="contacto">Contacto</a>
+    </nav>
+
+    <footer>
+      <p>&copy; 2025 HG Consulting & Engineering, Lda. <span data-translate="direitos">Todos os direitos reservados.</span></p>
+      <p><span data-translate="contateNos">Contacte-nos:</span> geral@hgconsulting.co.mz</p>
     <p>
       <a href="#"><i class="bi bi-linkedin"></i> LinkedIn</a> |
       <a href="#"><i class="bi bi-facebook"></i> Facebook</a>
@@ -180,5 +214,52 @@
 
   <!-- Bootstrap JS e dependências -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const translations = {
+      pt: {
+        inicio: "Início",
+        sobre: "Sobre Nós",
+        servicos: "Serviços",
+        projetos: "Projetos",
+        contacto: "Contacto",
+        bemVindo: "Bem-vindo à HG Consulting & Engineering",
+        descricaoServicos: "Oferecemos serviços de engenharia, consultoria e formação com foco em qualidade e sustentabilidade.",
+        missao: "Missão",
+        missaoTexto: "Prestar serviços de engenharia, consultoria, inspeção e formação profissional com foco na eficiência, segurança e proteção ambiental.",
+        visao: "Visão",
+        visaoTexto: "Ser uma empresa de referência nacional e internacional na área da engenharia e consultoria.",
+        valores: "Valores",
+        valoresTexto: "Comprometimento, qualidade, responsabilidade ambiental, inovação, formação contínua.",
+        // Adicione mais traduções conforme necessário
+      },
+      en: {
+        inicio: "Home",
+        sobre: "About Us",
+        servicos: "Services",
+        projetos: "Projects",
+        contacto: "Contact",
+        bemVindo: "Welcome to HG Consulting & Engineering",
+        descricaoServicos: "We offer engineering, consulting and training services focused on quality and sustainability.",
+        missao: "Mission",
+        missaoTexto: "To provide engineering, consulting, inspection and professional training services focused on efficiency, safety and environmental protection.",
+        visao: "Vision",
+        visaoTexto: "To be a national and international reference company in engineering and consulting.",
+        valores: "Values",
+        valoresTexto: "Commitment, quality, environmental responsibility, innovation, continuous training.",
+        // Add more translations as needed
+      }
+    };
+
+    function changeLanguage(lang) {
+      const elements = document.querySelectorAll('[data-translate]');
+      elements.forEach(element => {
+        const key = element.getAttribute('data-translate');
+        if (translations[lang][key]) {
+          element.textContent = translations[lang][key];
+        }
+      });
+      document.documentElement.lang = lang;
+    }
+  </script>
 </body>
 </html>
