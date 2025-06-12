@@ -11,6 +11,14 @@ const translations = {
     bemVindo: "Bem-vindo à HG Consulting & Engineering",
     descricaoServicos: "Oferecemos serviços de engenharia, consultoria e formação com foco em qualidade e sustentabilidade.",
     
+    // Sobre Nós
+    missao: "Missão",
+    missaoTexto: "Prestar serviços de engenharia, consultoria, inspeção e formação profissional com foco na eficiência, segurança e proteção ambiental.",
+    visao: "Visão",
+    visaoTexto: "Ser uma empresa de referência nacional e internacional na área da engenharia e consultoria.",
+    valores: "Valores",
+    valoresTexto: "Comprometimento, qualidade, responsabilidade ambiental, inovação, formação contínua.",
+    
     // Carrossel
     solucoesEngenharia: "Soluções em Engenharia",
     expertiseProj: "Expertise em projetos AVAC, hidráulica e elétrica",
@@ -36,6 +44,14 @@ const translations = {
     servicos: "Services",
     projetos: "Projects",
     contacto: "Contact",
+    
+    // About Us
+    missao: "Mission",
+    missaoTexto: "To provide engineering, consulting, inspection and professional training services focused on efficiency, safety and environmental protection.",
+    visao: "Vision",
+    visaoTexto: "To be a national and international reference company in engineering and consulting.",
+    valores: "Values",
+    valoresTexto: "Commitment, quality, environmental responsibility, innovation, continuous training.",
     
     // Home Page
     bemVindo: "Welcome to HG Consulting & Engineering",
