@@ -98,6 +98,28 @@
       background-color: white;
       color: #000000;
     }
+    .mvv-card {
+      background-color: #f8f9fa;
+      border-radius: 8px;
+      border: 1px solid #dee2e6;
+      transition: transform 0.3s ease;
+    }
+
+    .mvv-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    .mvv-card h3 {
+      color: #E46F34;
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+    }
+
+    .mvv-card p {
+      color: #495057;
+      line-height: 1.6;
+    }
   </style>
 </head>
 <body>
@@ -164,9 +186,27 @@
       <h2 data-translate="quemSomos">Quem Somos</h2>
       <p><span data-translate="sobreDesc">HG Consulting & Engineering, Lda é um consórcio inovador localizado em Moçambique e África do Sul, fornecendo soluções avançadas em diagnósticos de tubulações, avaliação avançada da condição de activos e localização, radar de penetração no solo, pesquisas, detecção de fugas e serviços de reabilitação de dutos; electromecânica; perfuração mineira e transportes de inertes. 
 Liderada por uma equipe dinâmica de profissionais experientes e especialistas, o consórcio oferece a estratégia mais apropriada para lidar com a sua gestão avançada de serviços públicos/privados, nas áreas de actuação.</span></p>
-      <p><strong data-translate="missao">Missão:</strong> <span data-translate="missaoTexto">Prestar serviços de consultoria e engenharia de padrão internacional nas áreas de electromecânica e automação industrial, detecção e correcção de fugas (água, petróleo e gás) e mineração (perfuração e transporte de inertes) a preços competitivos baseados numa relação de negócio saudável com os nossos clientes.</span></p>
-      <p><strong data-translate="visao">Visão:</strong> <span data-translate="visaoTexto">Ser uma empresa de referência nacional e internacional na prestação de serviços de consultoria e engenharia nas áreas de actuação e contribuir para desenvolvimento de Moçambique.</span></p>
-      <p><strong data-translate="valores">Valores:</strong> <span data-translate="valoresTexto">Transparência, Integridade, Competitividade, Empatia e Colaboração.</span></p>
+      
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <div class="mvv-card p-3 h-100">
+            <h3><strong data-translate="missao">Missão</strong></h3>
+            <p data-translate="missaoTexto">Prestar serviços de consultoria e engenharia de padrão internacional nas áreas de electromecânica e automação industrial, detecção e correcção de fugas (água, petróleo e gás) e mineração (perfuração e transporte de inertes) a preços competitivos baseados numa relação de negócio saudável com os nossos clientes.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="mvv-card p-3 h-100">
+            <h3><strong data-translate="visao">Visão</strong></h3>
+            <p data-translate="visaoTexto">Ser uma empresa de referência nacional e internacional na prestação de serviços de consultoria e engenharia nas áreas de actuação e contribuir para desenvolvimento de Moçambique.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="mvv-card p-3 h-100">
+            <h3><strong data-translate="valores">Valores</strong></h3>
+            <p data-translate="valoresTexto">Transparência, Integridade, Competitividade, Empatia e Colaboração.</p>
+          </div>
+        </div>
+      </div>
     </section>
     <section id="servicos">
       <h2 class="text-center mb-4" data-translate="nossosServicos">Nossos Serviços</h2>
