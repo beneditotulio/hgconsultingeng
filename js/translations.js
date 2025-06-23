@@ -10,6 +10,7 @@ const translations = {
     // Página Inicial
     bemVindo: "Bem-vindo à HG Consulting & Engineering",
     descricaoServicos: "Oferecemos serviços de engenharia, consultoria e formação com foco em qualidade e sustentabilidade.",
+    especialidades: "Especialistas em localização do utilitário, detecção de fugas, gps & escaneamento de betão, realinhamento de tubos e reabilitação, CCTV e inspeção de dutos; electromecânica; perfuração mineira e transportes de inertes.",
     
     // Sobre Nós
     quemSomos: "Quem Somos",
@@ -23,7 +24,7 @@ const translations = {
     
     // Carrossel
     solucoesEngenharia: "Soluções em Engenharia",
-    expertiseProj: "Expertise em projetos AVAC, hidráulica e elétrica",
+    expertiseProj: "Expertise em projetos AVAC, hidráulica e eléctrica",
     consultoriaEsp: "Consultoria Especializada",
     gestaoProjetos: "Gestão de projetos e consultoria técnica",
     formacaoProf: "Formação Profissional",
@@ -32,7 +33,7 @@ const translations = {
     // Serviços
     nossosServicos: "Nossos Serviços",
     engenharia: "Engenharia",
-    engDesc: "AVAC, Hidráulica, Elétrica",
+    engDesc: "AVAC, Hidráulica, Eléctrica",
     consultoria: "Consultoria",
     consDesc: "Gestão de Projetos e Consultoria Técnica",
     formacao: "Formação",
@@ -54,6 +55,7 @@ const translations = {
     // Home Page
     bemVindo: "Welcome to HG Consulting & Engineering",
     descricaoServicos: "We offer engineering, consulting and training services focused on quality and sustainability.",
+    especialidades: "Specialists in utility location, leak detection, GPS & concrete scanning, pipe realignment and rehabilitation, CCTV and pipeline inspection; electromechanics; mining drilling and inert transport.",
     
     // About Us
     quemSomos: "Who We Are",
