@@ -15,11 +15,11 @@ const translations = {
     quemSomos: "Quem Somos",
     sobreDesc: "HG Consulting & Engineering, Lda é um consórcio inovador localizado em Moçambique e África do Sul, fornecendo soluções avançadas em diagnósticos de tubulações, avaliação avançada da condição de activos e localização, radar de penetração no solo, pesquisas, detecção de fugas e serviços de reabilitação de dutos; electromecânica; perfuração mineira e transportes de inertes. Liderada por uma equipe dinâmica de profissionais experientes e especialistas, o consórcio oferece a estratégia mais apropriada para lidar com a sua gestão avançada de serviços públicos/privados, nas áreas de actuação.",
     missao: "Missão",
-    missaoTexto: "Prestar serviços de engenharia, consultoria, inspeção e formação profissional com foco na eficiência, segurança e proteção ambiental.",
+    missaoTexto: "Prestar serviços de consultoria e engenharia de padrão internacional nas áreas de electromecânica e automação industrial, detecção e correcção de fugas (água, petróleo e gás) e mineração (perfuração e transporte de inertes) a preços competitivos baseados numa relação de negócio saudável com os nossos clientes.",
     visao: "Visão",
-    visaoTexto: "Ser uma empresa de referência nacional e internacional na área da engenharia e consultoria.",
+    visaoTexto: "Ser uma empresa de referência nacional e internacional na prestação de serviços de consultoria e engenharia nas áreas de actuação e contribuir para desenvolvimento de Moçambique.",
     valores: "Valores",
-    valoresTexto: "Comprometimento, qualidade, responsabilidade ambiental, inovação, formação contínua.",
+    valoresTexto: "Transparência, Integridade, Competitividade, Empatia e Colaboração.",
     
     // Carrossel
     solucoesEngenharia: "Soluções em Engenharia",
@@ -59,11 +59,11 @@ const translations = {
     quemSomos: "Who We Are",
     sobreDesc: "HG Consulting & Engineering, Ltd is an innovative consortium located in Mozambique and South Africa, providing advanced solutions in pipeline diagnostics, advanced asset condition assessment and location, ground penetration radar, surveys, leak detection and pipeline rehabilitation services; electromechanics; mining drilling and inert transport. Led by a dynamic team of experienced professionals and specialists, the consortium offers the most appropriate strategy to deal with your advanced public/private services management in the areas of operation.",
     missao: "Mission",
-    missaoTexto: "To provide engineering, consulting, inspection and professional training services focused on efficiency, safety and environmental protection.",
+    missaoTexto: "To provide international standard consulting and engineering services in the areas of electromechanics and industrial automation, leak detection and correction (water, oil and gas) and mining (drilling and inert transport) at competitive prices based on a healthy business relationship with our customers.",
     visao: "Vision",
-    visaoTexto: "To be a national and international reference company in engineering and consulting.",
+    visaoTexto: "To be a national and international reference company in providing consulting and engineering services in our areas of expertise and contribute to Mozambique's development.",
     valores: "Values",
-    valoresTexto: "Commitment, quality, environmental responsibility, innovation, continuous training.",
+    valoresTexto: "Transparency, Integrity, Competitiveness, Empathy and Collaboration.",
     
     // Carousel
     solucoesEngenharia: "Engineering Solutions",
