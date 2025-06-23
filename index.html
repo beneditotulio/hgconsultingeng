@@ -161,13 +161,12 @@
     </section>
 
     <section id="sobre">
-      <h2 data-translate="sobre">Quem Somos</h2>
-      <p><span>HG Consulting & Engineering, Lda é um consórcio   inovador localizado em Moçambique e África do Sul, fornecendo soluções avançadas em diagnósticos de tubulações, avaliação avançada da condição de activos e localização, radar de penetração no solo, pesquisas, detecção de fugas e serviços de reabilitação de dutos; electromecânica; perfuração mineira e transportes de inertes.
-Liderada por uma equipe dinâmica de profissionais experientes e especialistas, o consórcio oferece a estratégia mais apropriada para lidar com a sua gestão avançada de serviços públicos/privados, nas áreas de actuação.
-</span></p>
-      <p><strong data-translate="missao">Missão:</strong> <span data-translate="missaoTexto">Prestar serviços de engenharia, consultoria, inspeção e formação profissional com foco na eficiência, segurança e proteção ambiental.</span></p>
-      <p><strong data-translate="visao">Visão:</strong> <span data-translate="visaoTexto">Ser uma empresa de referência nacional e internacional na área da engenharia e consultoria.</span></p>
-      <p><strong data-translate="valores">Valores:</strong> <span data-translate="valoresTexto">Comprometimento, qualidade, responsabilidade ambiental, inovação, formação contínua.</span></p>
+      <h2 data-translate="quemSomos">Quem Somos</h2>
+      <p><span data-translate="sobreDesc">HG Consulting & Engineering, Lda é um consórcio inovador localizado em Moçambique e África do Sul, fornecendo soluções avançadas em diagnósticos de tubulações, avaliação avançada da condição de activos e localização, radar de penetração no solo, pesquisas, detecção de fugas e serviços de reabilitação de dutos; electromecânica; perfuração mineira e transportes de inertes. 
+Liderada por uma equipe dinâmica de profissionais experientes e especialistas, o consórcio oferece a estratégia mais apropriada para lidar com a sua gestão avançada de serviços públicos/privados, nas áreas de actuação.</span></p>
+      <p><strong data-translate="missao">Missão:</strong> <span data-translate="missaoTexto">Prestar serviços de consultoria e engenharia de padrão internacional nas áreas de electromecânica e automação industrial, detecção e correcção de fugas (água, petróleo e gás) e mineração (perfuração e transporte de inertes) a preços competitivos baseados numa relação de negócio saudável com os nossos clientes.</span></p>
+      <p><strong data-translate="visao">Visão:</strong> <span data-translate="visaoTexto">Ser uma empresa de referência nacional e internacional na prestação de serviços de consultoria e engenharia nas áreas de actuação e contribuir para desenvolvimento de Moçambique.</span></p>
+      <p><strong data-translate="valores">Valores:</strong> <span data-translate="valoresTexto">Transparência, Integridade, Competitividade, Empatia e Colaboração.</span></p>
     </section>
     <section id="servicos">
       <h2 class="text-center mb-4" data-translate="nossosServicos">Nossos Serviços</h2>
@@ -207,7 +206,7 @@ Liderada por uma equipe dinâmica de profissionais experientes e especialistas, 
     </nav>
 
     <footer>
-      <p>&copy; 2025 HG Consulting & Engineering, Lda. <span data-translate="direitos">Todos os direitos reservados.</span></p>
+      <p>&copy; 2023 HG Consulting & Engineering, Lda. <span data-translate="direitos">Todos os direitos reservados.</span></p>
       <p><span data-translate="contateNos">Contacte-nos:</span> geral@hgconsulting.co.mz</p>
     <p>
       <a href="#"><i class="bi bi-linkedin"></i> LinkedIn</a> |
@@ -217,52 +216,5 @@ Liderada por uma equipe dinâmica de profissionais experientes e especialistas, 
 
   <!-- Bootstrap JS e dependências -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  <script>
-    const translations = {
-      pt: {
-        inicio: "Início",
-        sobre: "Sobre Nós",
-        servicos: "Serviços",
-        projetos: "Projetos",
-        contacto: "Contacto",
-        bemVindo: "Bem-vindo à HG Consulting & Engineering",
-        descricaoServicos: "Oferecemos serviços de engenharia, consultoria e formação com foco em qualidade e sustentabilidade.",
-        missao: "Missão",
-        missaoTexto: "Prestar serviços de engenharia, consultoria, inspeção e formação profissional com foco na eficiência, segurança e proteção ambiental.",
-        visao: "Visão",
-        visaoTexto: "Ser uma empresa de referência nacional e internacional na área da engenharia e consultoria.",
-        valores: "Valores",
-        valoresTexto: "Comprometimento, qualidade, responsabilidade ambiental, inovação, formação contínua.",
-        // Adicione mais traduções conforme necessário
-      },
-      en: {
-        inicio: "Home",
-        sobre: "About Us",
-        servicos: "Services",
-        projetos: "Projects",
-        contacto: "Contact",
-        bemVindo: "Welcome to HG Consulting & Engineering",
-        descricaoServicos: "We offer engineering, consulting and training services focused on quality and sustainability.",
-        missao: "Mission",
-        missaoTexto: "To provide engineering, consulting, inspection and professional training services focused on efficiency, safety and environmental protection.",
-        visao: "Vision",
-        visaoTexto: "To be a national and international reference company in engineering and consulting.",
-        valores: "Values",
-        valoresTexto: "Commitment, quality, environmental responsibility, innovation, continuous training.",
-        // Add more translations as needed
-      }
-    };
-
-    function changeLanguage(lang) {
-      const elements = document.querySelectorAll('[data-translate]');
-      elements.forEach(element => {
-        const key = element.getAttribute('data-translate');
-        if (translations[lang][key]) {
-          element.textContent = translations[lang][key];
-        }
-      });
-      document.documentElement.lang = lang;
-    }
-  </script>
 </body>
 </html>

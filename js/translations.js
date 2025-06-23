@@ -12,6 +12,8 @@ const translations = {
     descricaoServicos: "Oferecemos serviços de engenharia, consultoria e formação com foco em qualidade e sustentabilidade.",
     
     // Sobre Nós
+    quemSomos: "Quem Somos",
+    sobreDesc: "HG Consulting & Engineering, Lda é um consórcio inovador localizado em Moçambique e África do Sul, fornecendo soluções avançadas em diagnósticos de tubulações, avaliação avançada da condição de activos e localização, radar de penetração no solo, pesquisas, detecção de fugas e serviços de reabilitação de dutos; electromecânica; perfuração mineira e transportes de inertes. Liderada por uma equipe dinâmica de profissionais experientes e especialistas, o consórcio oferece a estratégia mais apropriada para lidar com a sua gestão avançada de serviços públicos/privados, nas áreas de actuação.",
     missao: "Missão",
     missaoTexto: "Prestar serviços de engenharia, consultoria, inspeção e formação profissional com foco na eficiência, segurança e proteção ambiental.",
     visao: "Visão",
@@ -35,7 +37,11 @@ const translations = {
     consDesc: "Gestão de Projetos e Consultoria Técnica",
     formacao: "Formação",
     formDesc: "Programas de Capacitação Profissional",
-    saibaMais: "Saiba mais"
+    saibaMais: "Saiba mais",
+
+    // Footer
+    direitos: "Todos os direitos reservados.",
+    contateNos: "Contacte-nos:"
   },
   en: {
     // Navigation
@@ -45,17 +51,19 @@ const translations = {
     projetos: "Projects",
     contacto: "Contact",
     
+    // Home Page
+    bemVindo: "Welcome to HG Consulting & Engineering",
+    descricaoServicos: "We offer engineering, consulting and training services focused on quality and sustainability.",
+    
     // About Us
+    quemSomos: "Who We Are",
+    sobreDesc: "HG Consulting & Engineering, Ltd is an innovative consortium located in Mozambique and South Africa, providing advanced solutions in pipeline diagnostics, advanced asset condition assessment and location, ground penetration radar, surveys, leak detection and pipeline rehabilitation services; electromechanics; mining drilling and inert transport. Led by a dynamic team of experienced professionals and specialists, the consortium offers the most appropriate strategy to deal with your advanced public/private services management in the areas of operation.",
     missao: "Mission",
     missaoTexto: "To provide engineering, consulting, inspection and professional training services focused on efficiency, safety and environmental protection.",
     visao: "Vision",
     visaoTexto: "To be a national and international reference company in engineering and consulting.",
     valores: "Values",
     valoresTexto: "Commitment, quality, environmental responsibility, innovation, continuous training.",
-    
-    // Home Page
-    bemVindo: "Welcome to HG Consulting & Engineering",
-    descricaoServicos: "We offer engineering, consulting and training services focused on quality and sustainability.",
     
     // Carousel
     solucoesEngenharia: "Engineering Solutions",
@@ -73,7 +81,11 @@ const translations = {
     consDesc: "Project Management and Technical Consulting",
     formacao: "Training",
     formDesc: "Professional Training Programs",
-    saibaMais: "Learn more"
+    saibaMais: "Learn more",
+
+    // Footer
+    direitos: "All rights reserved.",
+    contateNos: "Contact us:"
   }
 };
 
