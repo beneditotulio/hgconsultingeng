@@ -42,7 +42,9 @@ const translations = {
 
     // Footer
     direitos: "Todos os direitos reservados.",
-    contateNos: "Contacte-nos:"
+    contateNos: "Contacte-nos:",
+    mozambique: "Moçambique",
+    southAfrica: "África do Sul"
   },
   en: {
     // Navigation
@@ -87,7 +89,9 @@ const translations = {
 
     // Footer
     direitos: "All rights reserved.",
-    contateNos: "Contact us:"
+    contateNos: "Contact us:",
+    mozambique: "Mozambique",
+    southAfrica: "South Africa"
   }
 };
 
