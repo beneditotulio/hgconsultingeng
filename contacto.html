@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - HG Consulting & Engineering</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/flags.css" rel="stylesheet">
+  <script src="js/translations.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #FFFFFF;
+      color: #000000;
+    }
+    header, footer {
+      background-color: #000000;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 10px;
+      color: #E46F34;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .contact-info {
+      background-color: #f8f9fa;
+      border-radius: 8px;
+      padding: 2em;
+      margin-bottom: 2em;
+    }
+    .form-control:focus {
+      border-color: #E46F34;
+      box-shadow: 0 0 0 0.2rem rgba(228, 111, 52, 0.25);
+    }
+    .btn-primary {
+      background-color: #E46F34;
+      border-color: #E46F34;
+    }
+    .btn-primary:hover {
+      background-color: #cc5f2a;
+      border-color: #cc5f2a;
+    }
+  </style>
+</head>
+<body>
+  <div class="language-selector">
+    <img src="img/flags/PT.png" class="flag-icon active" data-lang="pt" onclick="changeLanguage('pt')" alt="Português">
+    <img src="img/flags/GB.png" class="flag-icon" data-lang="en" onclick="changeLanguage('en')" alt="English">
+  </div>
+
+  <header>
+    <h1>HG Consulting & Engineering</h1>
+    <nav>
+      <a href="index.html" data-translate="inicio">Início</a>
+      <a href="index.html#sobre" data-translate="sobre">Sobre Nós</a>
+      <a href="servicos.html" data-translate="servicos">Serviços</a>
+      <a href="index.html#projetos" data-translate="projectos">Projetos</a>
+      <a href="contacto.html" data-translate="contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main class="container py-5">
+    <h2 class="text-center mb-4" data-translate="contacto">Contacto</h2>
+    
+    <div class="row">
+      <div class="col-md-6">
+        <div class="contact-info">
+          <h3 data-translate="nossaLocalizacao">Nossa Localização</h3>
+          <p><strong data-translate="endereco">Endereço:</strong><br>
+          Parcela 30, km 15<br>
+          Machava/Matola-Moçambique</p>
+          
+          <h3 data-translate="contactenos">Contacte-nos</h3>
+          <p>
+            <strong>Email:</strong><br>
+            geral@hgconsultingengineering.com
+          </p>
+          <p>
+            <strong data-translate="telefones">Telefones:</strong><br>
+            +258 82 7000 520<br>
+            +258 84 5000 530<br>
+            +258 86 8382020
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <form action="https://formspree.io/f/geral@hgconsultingengineering.com" method="POST">
+          <div class="mb-3">
+            <label for="nome" class="form-label" data-translate="nome">Nome</label>
+            <input type="text" class="form-control" id="nome" name="nome" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+          <div class="mb-3">
+            <label for="assunto" class="form-label" data-translate="assunto">Assunto</label>
+            <input type="text" class="form-control" id="assunto" name="assunto" required>
+          </div>
+          <div class="mb-3">
+            <label for="mensagem" class="form-label" data-translate="mensagem">Mensagem</label>
+            <textarea class="form-control" id="mensagem" name="mensagem" rows="5" required></textarea>
+          </div>
+          <div class="d-grid">
+            <button type="submit" class="btn btn-primary" data-translate="enviar">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 HG Consulting & Engineering, Lda. <span data-translate="direitos">Todos os direitos reservados.</span></p>
+    <p>
+      <a href="#"><i class="bi bi-linkedin"></i> LinkedIn</a> |
+      <a href="#"><i class="bi bi-facebook"></i> Facebook</a>
+    </p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
