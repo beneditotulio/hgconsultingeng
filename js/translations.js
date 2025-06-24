@@ -6,6 +6,7 @@ const translations = {
     servicos: "Serviços",
     projetos: "Projetos",
     contacto: "Contacto",
+    nossasLocalizacoes: "Nossas Localizações",
     
     // Página Inicial
     bemVindo: "Bem-vindo à HG Consulting & Engineering",
@@ -44,7 +45,15 @@ const translations = {
     direitos: "Todos os direitos reservados.",
     contateNos: "Contacte-nos:",
     mozambique: "Moçambique",
-    southAfrica: "África do Sul"
+    southAfrica: "África do Sul",
+    endereco: "Endereço",
+    contacteNos: "Contacte-nos",
+    nome: "Nome",
+    email: "Email",
+    assunto: "Assunto",
+    mensagem: "Mensagem",
+    enviar: "Enviar",
+    telefones: "Telefones"
   },
   en: {
     // Navigation
@@ -53,6 +62,7 @@ const translations = {
     servicos: "Services",
     projetos: "Projects",
     contacto: "Contact",
+    nossasLocalizacoes: "Our Locations",
     
     // Home Page
     bemVindo: "Welcome to HG Consulting & Engineering",
@@ -91,7 +101,15 @@ const translations = {
     direitos: "All rights reserved.",
     contateNos: "Contact us:",
     mozambique: "Mozambique",
-    southAfrica: "South Africa"
+    southAfrica: "South Africa",
+    endereco: "Address",
+    contacteNos: "Contact Us",
+    nome: "Name",
+    email: "Email",
+    assunto: "Subject",
+    mensagem: "Message",
+    enviar: "Send",
+    telefones: "Phones"
   }
 };
 
