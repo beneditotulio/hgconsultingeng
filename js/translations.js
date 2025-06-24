@@ -4,7 +4,7 @@ const translations = {
     inicio: "Início",
     sobre: "Sobre Nós",
     servicos: "Serviços",
-    projetos: "Projetos",
+    projetos: "Projectos",
     contacto: "Contacto",
     nossasLocalizacoes: "Nossas Localizações",
     
