@@ -22,6 +22,11 @@ const translations = {
     visaoTexto: "Ser uma empresa de referência nacional e internacional na prestação de serviços de consultoria e engenharia nas áreas de actuação e contribuir para desenvolvimento de Moçambique.",
     valores: "Valores",
     valoresTexto: "Transparência, Integridade, Competitividade, Empatia e Colaboração.",
+    transparencia: "Transparência",
+    integridade: "Integridade",
+    competitividade: "Competitividade",
+    empatia: "Empatia",
+    colaboracao: "Colaboração",
     
     // Carrossel
     solucoesEngenharia: "Soluções em Engenharia",
@@ -78,6 +83,11 @@ const translations = {
     visaoTexto: "To be a national and international reference company in providing consulting and engineering services in our areas of expertise and contribute to Mozambique's development.",
     valores: "Values",
     valoresTexto: "Transparency, Integrity, Competitiveness, Empathy and Collaboration.",
+    transparencia: "Transparency",
+    integridade: "Integrity",
+    competitividade: "Competitiveness",
+    empatia: "Empathy",
+    colaboracao: "Collaboration",
     
     // Carousel
     solucoesEngenharia: "Engineering Solutions",
