@@ -120,6 +120,113 @@
       color: #495057;
       line-height: 1.6;
     }
+
+    .footer-container {
+      background-color: #000000;
+      color: #ffffff;
+      padding: 4rem 0 2rem;
+    }
+
+    .footer-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 3rem;
+      padding: 0 1rem;
+    }
+
+    .footer-section {
+      text-align: left;
+    }
+
+    .footer-section h4 {
+      color: #E46F34;
+      margin-bottom: 1.5rem;
+      font-size: 1.2rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .footer-logo {
+      max-width: 200px;
+      margin-bottom: 1.5rem;
+    }
+
+    .footer-contact-info {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .footer-contact-info li {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      margin-bottom: 1rem;
+    }
+
+    .footer-contact-info i {
+      color: #E46F34;
+      font-size: 1.2rem;
+      margin-top: 4px;
+    }
+
+    .social-links {
+      display: flex;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+
+    .social-links a {
+      color: #ffffff;
+      background-color: #E46F34;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+    }
+
+    .social-links a:hover {
+      background-color: #ffffff;
+      color: #E46F34;
+    }
+
+    .footer-bottom {
+      text-align: center;
+      padding-top: 2rem;
+      margin-top: 3rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    @media (max-width: 992px) {
+      .footer-content {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 576px) {
+      .footer-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+
+      .footer-section {
+        text-align: center;
+      }
+
+      .footer-contact-info li {
+        justify-content: center;
+      }
+
+      .social-links {
+        justify-content: center;
+      }
+    }
   </style>
 </head>
 <body>
@@ -237,23 +344,60 @@
     </section>
   </main>
 
-  <footer>
-    <nav>
-      <a href="index.html" data-translate="inicio">Início</a>
-      <a href="sobre.html" data-translate="sobre">Sobre Nós</a>
-      <a href="servicos.html" data-translate="servicos">Serviços</a>
-      <a href="projetos.html" data-translate="projetos">Projetos</a>
-      <a href="contacto.html" data-translate="contacto">Contacto</a>
-    </nav>
+  <footer class="footer-container">
+    <div class="footer-content">
+        <div class="footer-section">
+            <img src="img/logotipo 500x500.png" alt="HG Consulting & Engineering" class="footer-logo">
+            <p data-translate="descricaoServicos">Oferecemos serviços de engenharia, consultoria e formação com foco em qualidade e sustentabilidade.</p>
+            <!-- <div class="social-links">
+                <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            </div> -->
+        </div>
 
-    <footer>
-      <p>&copy; 2023 HG Consulting & Engineering, Lda. <span data-translate="direitos">Todos os direitos reservados.</span></p>
-      <p><span data-translate="contateNos">Contacte-nos:</span> geral@hgconsultingengineering.com</p>
-    <p>
-      <a href="#"><i class="bi bi-linkedin"></i> LinkedIn</a> |
-      <a href="#"><i class="bi bi-facebook"></i> Facebook</a>
-    </p>
-  </footer>
+        <div class="footer-section">
+            <h4 data-translate="mozambique">Moçambique</h4>
+            <ul class="footer-contact-info">
+                <li>
+                    <i class="bi bi-geo-alt-fill"></i>
+                    <span>Parcela 30, km 15<br>Machava/Matola-Moçambique</span>
+                </li>
+                <li>
+                    <i class="bi bi-telephone-fill"></i>
+                    <span>+258 82 7000 520<br>+258 84 5000 530<br>+258 86 8382020</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h4 data-translate="southAfrica">África do Sul</h4>
+            <ul class="footer-contact-info">
+                <li>
+                    <i class="bi bi-geo-alt-fill"></i>
+                    <span>Plot 13, Road 5, Brentwood Park<br>Gauteng, South Africa, 1501</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h4 data-translate="quickLinks">Links Rápidos</h4>
+            <nav class="footer-nav">
+                <a href="index.html" data-translate="inicio">Início</a>
+                <a href="index.html#sobre" data-translate="sobre">Sobre Nós</a>
+                <a href="servicos.html" data-translate="servicos">Serviços</a>
+                <a href="index.html#projetos" data-translate="projetos">Projetos</a>
+                <a href="contacto.html" data-translate="contacto">Contacto</a>
+            </nav>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>
+            <i class="bi bi-envelope-fill"></i> geral@hgconsultingengineering.com<br>
+            &copy; 2025 HG Consulting & Engineering, Lda. <span data-translate="direitos">Todos os direitos reservados.</span>
+        </p>
+    </div>
+</footer>
 
   <!-- Bootstrap JS e dependências -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
