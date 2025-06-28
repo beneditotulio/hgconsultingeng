@@ -58,7 +58,11 @@ const translations = {
     assunto: "Assunto",
     mensagem: "Mensagem",
     enviar: "Enviar",
-    telefones: "Telefones"
+    telefones: "Telefones",
+
+    // Projetos em Breve
+    projetosEmBreve: "Projectos em Breve",
+    projetosEmBreveDesc: "Estamos preparando uma seleção dos nossos melhores projectos. Em breve disponibilizaremos mais informações."
   },
   en: {
     // Navigation
@@ -119,7 +123,11 @@ const translations = {
     assunto: "Subject",
     mensagem: "Message",
     enviar: "Send",
-    telefones: "Phones"
+    telefones: "Phones",
+
+    // Projects Coming Soon
+    projetosEmBreve: "Projects Coming Soon",
+    projetosEmBreveDesc: "We are preparing a selection of our best projects. More information will be available soon."
   }
 };
 

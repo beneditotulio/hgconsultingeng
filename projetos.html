@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos - HG Consulting & Engineering</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/flags.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <script src="js/translations.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFFFFF;
+            color: #000000;
+        }
+        header {
+            background-color: #000000;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 10px;
+            color: #E46F34;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .coming-soon {
+            text-align: center;
+            padding: 5rem 1rem;
+            background-color: #f8f9fa;
+            border-radius: 10px;
+            margin: 2rem auto;
+            max-width: 600px;
+        }
+        .coming-soon i {
+            font-size: 4rem;
+            color: #E46F34;
+            margin-bottom: 1.5rem;
+        }
+        .coming-soon h2 {
+            color: #E46F34;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="language-selector">
+        <img src="img/flags/PT.png" class="flag-icon active" data-lang="pt" onclick="changeLanguage('pt')" alt="Português">
+        <img src="img/flags/GB.png" class="flag-icon" data-lang="en" onclick="changeLanguage('en')" alt="English">
+    </div>
+
+    <header>
+        <h1>HG Consulting & Engineering</h1>
+        <nav>
+            <a href="index.html" data-translate="inicio">Início</a>
+            <a href="sobre.html" data-translate="sobre">Sobre Nós</a>
+            <a href="servicos.html" data-translate="servicos">Serviços</a>
+            <a href="projetos.html" data-translate="projetos">Projetos</a>
+            <a href="contacto.html" data-translate="contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main class="container py-5">
+        <div class="coming-soon">
+            <i class="bi bi-clock-history"></i>
+            <h2 data-translate="projetosEmBreve">Projetos em Breve</h2>
+            <p class="lead" data-translate="projetosEmBreveDesc">Estamos preparando uma seleção dos nossos melhores projetos. Em breve disponibilizaremos mais informações.</p>
+        </div>
+    </main>
+
+    <!-- Copy the footer from contacto.html -->
+</body>
+</html>
